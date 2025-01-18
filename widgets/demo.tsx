@@ -1,3 +1,13 @@
-export default function Demo() {
-  return <div>Demo Widget Loaded Dynamically</div>;
-}
+// demo.tsx
+import React from 'react';
+
+const DemoWidget: React.FC = () => {
+  return (
+    <div>
+      <h2>Demo Widget</h2>
+      <p>This is a dynamically loaded widget.</p>
+    </div>
+  );
+};
+
+export default DemoWidget;
